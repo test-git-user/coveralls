@@ -1,3 +1,4 @@
+# test
 REPORTER = spec
 
 test:

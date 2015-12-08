@@ -53,8 +53,11 @@
   "devDependencies": {
     "bunyan": "^1.2.3",
     "chai": "^3.0.0",
-    "coveralls": "*",
+    "coveralls": "^2.11.4",
     "eslint": "^1.6.0",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-coveralls": "^1.0.0",
     "istanbul": "*",
     "mocha": "*",
     "npm-update-outdated": "^0.1.3",

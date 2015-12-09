@@ -30,7 +30,8 @@ describe('index/', function() {
 describe('unused', function() {
     describe('unusedFunction()', function() {
         it('should return garbage', function(done) {
-            expect(unusedFunction()).to.be.equal('neverused');
+            var garbage = unusedFunction();
+            garbage.should.be.equal('neverused');
             done();
         });
     });

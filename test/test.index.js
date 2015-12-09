@@ -25,14 +25,11 @@ describe('index/', function() {
       done();
     });
   });
-});
 
-describe('unused', function() {
-    describe('unusedFunction()', function() {
-        it('should return garbage', function(done) {
-            var garbage = unusedFunction();
-            garbage.should.be.equal('neverused');
-            done();
-        });
+  describe('unusedFunction()', function() {
+    it('should return garbage', function(done) {
+        var garbage = unusedFunction();
+        garbage.should.be.equal('neverused');
+        done();
     });
 });

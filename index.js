@@ -20,4 +20,5 @@ main(verbose);
 
 module.exports = {
   main: main
+  unusedFunction: unusedFunction
 };

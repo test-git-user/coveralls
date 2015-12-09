@@ -13,7 +13,7 @@ var main = function(verbose) {
 };
 
 function unusedFunction() {
-    'neverused';
+    return 'neverused';
 }
 
 main(verbose);

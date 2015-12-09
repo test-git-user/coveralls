@@ -12,6 +12,10 @@ var main = function(verbose) {
   manager.run(sites, settings, outAdapter, verbose);
 };
 
+function unusedFunction() {
+    'neverused';
+}
+
 main(verbose);
 
 module.exports = {

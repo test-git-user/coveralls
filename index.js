@@ -14,6 +14,14 @@ var main = function(verbose) {
 
 main(verbose);
 
+function unusedFunction1() {
+    console.log('this function is so unused');
+    console.log('what else is this function about? it\'s not used.');
+    return 3;
+}
+
+console.log(4 + unusedFunction1());
+
 module.exports = {
   main: main
 };

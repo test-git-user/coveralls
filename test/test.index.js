@@ -28,8 +28,9 @@ describe('index/', function() {
 
   describe('unusedFunction()', function() {
     it('should return garbage', function(done) {
-        var garbage = unusedFunction();
+        var garbage = index.unusedFunction();
         garbage.should.be.equal('neverused');
         done();
     });
+  });
 });

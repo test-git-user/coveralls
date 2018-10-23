@@ -25,4 +25,12 @@ describe('index/', function() {
       done();
     });
   });
+
+  describe('unusedFunction()', function() {
+    it('should return garbage', function(done) {
+        var garbage = index.unusedFunction();
+        garbage.should.be.equal('neverused');
+        done();
+    });
+  });
 });

@@ -12,8 +12,21 @@ var main = function(verbose) {
   manager.run(sites, settings, outAdapter, verbose);
 };
 
+var unusedFunction = function() {
+    return 'neverused';
+};
+
+function coolNewFunction() {
+    var x = 3;
+    if(x % 3 === 0) {
+        console.log('it seems like a 3');
+    }
+    return x * x;
+}
+
 main(verbose);
 
 module.exports = {
-  main: main
+  main: main,
+  unusedFunction: unusedFunction
 };

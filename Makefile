@@ -1,3 +1,4 @@
+# test
 REPORTER = spec
 
 test:
@@ -9,7 +10,6 @@ lint:
 	./node_modules/.bin/eslint --ext .js .
 
 test-cov:
-	$(MAKE) lint
 	@NODE_ENV=test ./node_modules/.bin/istanbul cover \
 	./node_modules/mocha/bin/_mocha -- -R spec
 

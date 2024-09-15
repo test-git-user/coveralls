@@ -9,6 +9,7 @@ Checks your sites' HTTP statuses
 
 ## Install
 
+
 ```
 npm install http-status-check
 ```
